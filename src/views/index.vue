@@ -32,7 +32,7 @@
               <el-menu-item index="artlist">文章列表</el-menu-item>
             </el-menu-item-group>
             <el-menu-item-group>
-              <el-menu-item index="3-1">文章发布</el-menu-item>
+              <el-menu-item index="postlist">文章发布</el-menu-item>
             </el-menu-item-group>
           </el-submenu>
           <!-- 3------------------- -->

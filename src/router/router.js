@@ -2,12 +2,10 @@ import index from '@/views/index.vue'
 import login from '@/views/login.vue'
 import wecolme from '@/views/weclome.vue'
 import artlist from '@/views/artlist.vue'
+import postlist from '@/views/articlepublist.vue'
 
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-
-
-
 
 
 Vue.use(VueRouter)
@@ -37,6 +35,11 @@ var router = new VueRouter({
         name: 'artlist',
         path: 'artlist',
         component: artlist
+      },
+      {
+        name: 'postlist',
+        path: 'postlist',
+        component: postlist
       }
       ]
 

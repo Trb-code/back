@@ -1,5 +1,6 @@
 <template >
   <div class="login" @keyup.13="login">
+    <img src="../img/login-bg.jpg" alt />
     <div class="container">
       <img src="../assets/avatar.jpg" alt class="avatar" />
       <el-form :model="loginForm" :rules="rules" ref="ruleForm" class="demo-ruleForm">
@@ -76,6 +77,11 @@ export default {
   width: 100%;
   height: 100%;
   background-color: #2f4050;
+  >img{
+    width: 100%;
+    height: 100%;
+    position:absolute ;
+  }
   .container {
     position: absolute;
     left: 0;

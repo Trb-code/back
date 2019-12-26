@@ -15,3 +15,21 @@ export const arctlist = (params) => {
     params
   })
 }
+
+// 栏目列表
+export const lanmu = () => {
+  return axios({
+    url: '/category'
+
+  })
+}
+
+// 发布文章
+export const sendpost = (data) => {
+  return axios({
+    method: 'post',
+    url: '/post',
+    data
+  })
+}
+
